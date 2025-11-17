@@ -59,6 +59,15 @@ const Navbar = () => {
                      Produk
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to="/riwayat"
+                    className="block px-4 py-2 hover:bg-gray-100"
+                    onClick={() => setOpenMenu(false)}
+                  >
+                     Riwayat Pesanan
+                  </Link>
+                </li>
               </ul>
             </div>
           )}
